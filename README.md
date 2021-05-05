@@ -24,7 +24,7 @@ configure AUCTIONS_HOST and AUTH_URL in your Postman global variables on the val
 
 run the following URL to get your token and copy the auth token text 
 
-curl --location --request POST 'https://<your auth0 account>.us<or any other region>.auth0.com/oauth/token' \
+curl --location --request POST 'https://\<your auth0 account\>.us<or any other region>.auth0.com/oauth/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'client_id=<copy client id from your auth0 settings' \
 --data-urlencode 'username=<you should add a user / role with a password - mention user name added to auth0 account here' \
