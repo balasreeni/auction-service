@@ -26,9 +26,9 @@ run the following URL to get your token and copy the auth token text
 
 curl --location --request POST 'https://\<your auth0 account\>.us<or any other region>.auth0.com/oauth/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
---data-urlencode 'client_id=<copy client id from your auth0 settings' \
---data-urlencode 'username=<you should add a user / role with a password - mention user name added to auth0 account here' \
---data-urlencode 'password=<your password for the added user>' \
+--data-urlencode 'client_id=\<copy client id from your auth0 settings\>' \
+--data-urlencode 'username=\<you should add a user / role with a password - mention user name added to auth0 account here\>' \
+--data-urlencode 'password=\<your password for the added user\>' \
 --data-urlencode 'grant_type=password' \
 --data-urlencode 'scope=openid'
 
