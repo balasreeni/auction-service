@@ -87,5 +87,7 @@ custom:
     url: ${cf:notification-service-${self:provider.stage}.MailQueueUrl}
   AuctionsBucket:
     name: auctions-bucket-bala1234-${self:provider.stage}
+  TestConfig:
+    name: auctions-bucket-bala1234-${self:provider.stage}
   bundle:
     linting: false
